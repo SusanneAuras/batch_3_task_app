@@ -1,9 +1,5 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:task_app/private/features/tasks/presentation/app.dart';
-import 'package:task_app/solutions/chapter_3/subchapter_3/lesson_8/s_3_3_8_4.dart';
-
 import 'private/features/settings/data/settings_controller.dart';
 import 'private/features/settings/data/settings_service.dart';
 
