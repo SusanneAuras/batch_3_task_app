@@ -18,7 +18,7 @@ export './chapter_4/subchapter_5/lesson_3/s_4_5_3_4.dart';
 export './chapter_4/subchapter_5/lesson_3/s_4_5_3_5.dart';
 export './chapter_4/subchapter_5/lesson_3/s_4_5_3_6.dart';
 export './chapter_5/subchapter_1/lesson_1/s_5_1_1_1.dart';
-export './chapter_5/subchapter_1/lesson_1/s_5_1_1_2/s_5_1_1_2.dart';
+export './chapter_5/subchapter_1/lesson_1/s_5_1_1_2.dart';
 export './chapter_5/subchapter_1/lesson_1/s_5_1_1_3.dart';
 export './chapter_5/subchapter_1/lesson_1/s_5_1_1_4.dart';
 export './chapter_5/subchapter_1/lesson_3/s_5_1_3_1.dart';
