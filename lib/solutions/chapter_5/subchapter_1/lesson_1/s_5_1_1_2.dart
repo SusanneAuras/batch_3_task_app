@@ -6,7 +6,7 @@ class S5112 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+/*       mainAxisAlignment: MainAxisAlignment.center, */
       children: [
         Image(
           image: AssetImage("assets/images/lama.png"),
@@ -16,7 +16,7 @@ class S5112 extends StatelessWidget {
           "Name",
           style: headerStyle,
         ),
-        SizedBox(height: 8.0),
+        SizedBox(height: 2.0),
         Text(
           "Lamarama",
           style: contentStyle,
@@ -26,7 +26,7 @@ class S5112 extends StatelessWidget {
           "Gewicht",
           style: headerStyle,
         ),
-        SizedBox(height: 8.0),
+        SizedBox(height: 2.0),
         Text(
           "120 kg",
           style: contentStyle,
@@ -36,7 +36,7 @@ class S5112 extends StatelessWidget {
           "Größe",
           style: headerStyle,
         ),
-        SizedBox(height: 8.0),
+        SizedBox(height: 2.0),
         Text(
           "1,80 m",
           style: contentStyle,
@@ -46,7 +46,7 @@ class S5112 extends StatelessWidget {
           "Lieblingsessen",
           style: headerStyle,
         ),
-        SizedBox(height: 8.0),
+        SizedBox(height: 2.0),
         Text(
           "Gras",
           style: contentStyle,

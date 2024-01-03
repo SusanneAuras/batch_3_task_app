@@ -10,10 +10,10 @@ class S5111 extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text("Hello World!"),
-          SizedBox(height: 40.0),
+          SizedBox(height: 56.0),
           ColoredSquares(),
           SizedBox(
-            height: 40.0,
+            height: 56.0,
           ),
           Switch(
             value: true,
