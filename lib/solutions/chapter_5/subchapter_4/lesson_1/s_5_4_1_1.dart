@@ -7,19 +7,20 @@ class S5411 extends StatelessWidget {
     return Center(
       child: ElevatedButton(
         onPressed: () {
-          /* try {
-            throw Exception("Runtime Error!");
+          try {
+            throw Exception("Runtime Error");
           } catch (e) {
             showErrorMessage(context, e.toString());
-          } */
+          }
         },
-        child:
-            const Text("Das Klicken auf diesen Button erzeugt einen Fehler!"),
+        child: const Text("Erzeuge Runtime Error"),
       ),
     );
+     
   }
 
   void showErrorMessage(BuildContext context, String message) {
+ 
     final snackBar = SnackBar(
       content: Text(message),
     );
